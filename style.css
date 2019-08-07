@@ -178,6 +178,8 @@ nav ul {
     margin-top: 72px;
     width: 100%;
     text-align: center;
+    opacity: 0;
+    pointer-events: none;
 }
 
 #slideout-menu ul {
@@ -417,9 +419,9 @@ footer #social-media-footer ul li:hover a .fa-twitter {
         display: flex;
     }
 
-    /* #slideout-menu {
+    #slideout-menu {
         display: block;
-    } */
+    }
 
     #searchbox {
         display: none;
